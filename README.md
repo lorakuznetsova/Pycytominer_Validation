@@ -56,12 +56,12 @@ emb... (embedding columns)
 
 run:
 
-# Percent Replicating / Matching with Pearson correlation (default)
+## Percent Replicating / Matching with Pearson correlation (default)
 ```
 python validate_metrics.py /path/to/well_features_normalized.csv
 ```
 
-# Same, but using cosine similarity
+## Same, but using cosine similarity
 ```
 python validate_metrics.py /path/to/well_features_normalized.csv --metric cosine
 ```
