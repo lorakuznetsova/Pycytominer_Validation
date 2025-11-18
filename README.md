@@ -44,7 +44,7 @@ requirements.txt matches the broader environment used in our analyses.
 
 Typical usage
 
-Assuming a CSV file well_features_normalized.csv with columns like:
+Assuming a CSV file `well_features_normalized.csv` with columns like:
 
 batch, plate, well
 
@@ -57,13 +57,13 @@ emb... (embedding columns)
 run:
 
 # Percent Replicating / Matching with Pearson correlation (default)
-python validate_metrics.py /path/to/well_features_normalized.csv
+```python validate_metrics.py /path/to/well_features_normalized.csv```
 
 # Same, but using cosine similarity
-python validate_metrics.py /path/to/well_features_normalized.csv --metric cosine
-The script creates timestamped reports/<timestamp>_<METRIC>/ folders with:
+```python validate_metrics.py /path/to/well_features_normalized.csv --metric cosine```
+The script creates timestamped `reports/<timestamp>_<METRIC>/` folders with:
 
-summary_report.txt (PR/PM values),
+`summary_report.txt` (PR/PM values),
 
 CSVs with per-group median similarities,
 
