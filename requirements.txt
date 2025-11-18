@@ -1,0 +1,17 @@
+pandas
+numpy
+pathlib
+requests
+jupyter
+jupyterlab
+ipykernel
+widgetsnbextension
+jupyter_contrib_nbextensions
+matplotlib
+plotnine
+seaborn
+scikit-learn
+gdown
+black
+git+https://github.com/cytomining/pycytominer@main          # Safe commit: 8e3c28d3b81efd2c241d4c792edfefaa46698115
+git+https://github.com/cytomining/cytominer-eval@master     # Safe commit: 643d3e7fc97464a1b45a4642fa921cc22269b118
