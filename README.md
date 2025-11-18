@@ -74,4 +74,8 @@ CSVs with per-group median similarities,
 CSVs with null distributions,
 
 PNG plots of null distributions and per-group median similarities.
+## License
+
+This project is licensed under the Apache License, Version 2.0.
+See the `LICENSE` file for details.
 
