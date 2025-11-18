@@ -37,6 +37,7 @@ Jupyter, plotting libraries, and pinned versions of `pycytominer` and
 
 ```bash
 pip install -r requirements.txt
+```
 A minimal setup for running only the validation scripts would require:
 numpy, pandas, scipy, matplotlib, and seaborn, but the provided
 requirements.txt matches the broader environment used in our analyses.
