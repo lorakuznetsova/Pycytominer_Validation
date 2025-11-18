@@ -57,10 +57,14 @@ emb... (embedding columns)
 run:
 
 # Percent Replicating / Matching with Pearson correlation (default)
-```python validate_metrics.py /path/to/well_features_normalized.csv```
+```
+python validate_metrics.py /path/to/well_features_normalized.csv
+```
 
 # Same, but using cosine similarity
-```python validate_metrics.py /path/to/well_features_normalized.csv --metric cosine```
+```
+python validate_metrics.py /path/to/well_features_normalized.csv --metric cosine
+```
 The script creates timestamped `reports/<timestamp>_<METRIC>/` folders with:
 
 `summary_report.txt` (PR/PM values),
