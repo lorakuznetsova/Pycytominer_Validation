@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+type: software
+title: "Pycytominer_Validation"
+authors:
+  - family-names: "Kuznetsova"
+    given-names: "Xenia"
+abstract: >
+  Pycytominer-based scripts to compute percent replicating and percent
+  matching (PR/PM) from per-well Cell Painting embeddings using
+  different similarity metrics and null distributions.
+url: "https://github.com/XeniaKuznetsova/Pycytominer_Validation"
+repository-code: "https://github.com/XeniaKuznetsova/Pycytominer_Validation"
+license: "Apache-2.0"
